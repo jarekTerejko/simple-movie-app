@@ -58,7 +58,7 @@ Landing Page Styles
 --------------------------------*/
 
 .landing {
-	min-height: calc(100vh - 160px);
+	min-height: calc(100vh - 128px);
 }
 
 .hero {
@@ -103,7 +103,7 @@ button[type=submit]:hover,
 }
 
 .movies {
-	margin: 30px 0;
+	padding: 30px 0;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 20px;
@@ -156,7 +156,7 @@ Single Movie Details Page Styles
 
 .single-movie {
 	margin: 30px 0;
-	min-height: calc(100vh - 188px);
+	min-height: calc(100vh - 128px);
 }
 
 .movie {
