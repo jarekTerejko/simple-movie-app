@@ -24,7 +24,7 @@ const getMovies = (searchText) => {
                     </div>
                     <h5>${movie.Title}</h5>
                     <p>${movie.Year}</p>
-                    <a onclick="movieSelected('${movie.imdbID}')" href="#" class="btn btn-primary">Details</a>
+                    <a onclick="movieSelected('${movie.imdbID}')" href="#">Details</a>
                 </div>`
 			});
 
@@ -80,7 +80,7 @@ const getMovie = () => {
                 </ul>
             </div>
             <div class="movie-plot">
-                <h3>Opis:</h3>
+                <h3>Plot:</h3>
                 <p>${movie.Plot}</p>
             </div>
             <div class="btns-container">
